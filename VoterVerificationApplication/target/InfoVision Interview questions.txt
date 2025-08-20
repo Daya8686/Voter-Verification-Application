@@ -1,0 +1,178 @@
+class UnmatchingAgeException extends RuntimeException{
+
+public UnmatchingAgeException(String messages){
+	Super(messages);
+}
+
+}
+
+
+final class myExampleClass {
+
+private final String name;
+
+public myExampleClass(String name){
+	this.name=name;
+}
+
+public String getName(){
+
+}
+
+}
+
+
+
+class myService{
+
+Optional<String> name= Optional.ofNullable(addressService.getEmpData(
+
+}
+
+
+ex 2 -1,2,3,4,5,6,7,8
+ 
+
+
+numbers.stream().filter(n->n%2==0).collect(Collectors.toList());
+
+1,2,3,3,4,5,5,7,8
+
+
+numbers.stream().distinct().collect(Collectors.toList());
+
+
+
+
+Select * from Employee e Inner Join Address a ON e.empId==a.empId;
+
+Select Distict(*) from Employee 
+
+
+
+
+@RestController("/v1")
+class EmployeeRecords{
+@Autowire
+private EmployeeService employeeService;
+
+
+
+
+@GetMapping("/employee/{employeeId}")
+public ResponseEntity<EmployeeDTO> getEmployeeByID(@PathVarible int emplyeeId){
+	
+Employee employee = employeeService.getEmplyeeById(employeeId);
+
+
+
+
+}
+}
+
+@Service
+class EmployeeService{
+
+
+@Autowire
+private EmpRepo empRepo;
+
+public Employee getEmployeeData(int employeeId){
+
+Employee employee = empRepo.findById(employeeId);
+
+
+}
+
+}
+
+
+@Respository
+interface EmpRepo extends JPARespository<Employee, Integer>{
+
+
+}
+
+
+
+
+
+*
+
+* *
+
+* * *
+
+* * * *
+
+* * * * *
+ 
+
+
+for(int i=0; i<5;i++){
+
+for(int j=0; j<=i;j++){
+System.out.print("* ");
+
+}
+System.out.println();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
